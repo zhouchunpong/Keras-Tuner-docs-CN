@@ -10,7 +10,7 @@ Keras-Tuner：适用于TensorFlow 2.0和keras的超参数调优器 （个人翻�
 3. 以AutoML和Autokeras等为代表的全自动炼丹炉，这是为了让非专业炼丹的人也能够轻松的炼制出较好的仙丹。这些丹炉里已有一些炼丹大师已经调制好的丹方和炼制秘籍。此类方法优点明显，搭建容易，能快速开始进行炼丹；缺点是目前的丹方（模型）数量有限，同时能炼制的灵材仅限于灵草（图像）和宝石（文本），而目前无法对千奇百怪的灵兽（Graph data）进行炼制。
 4. 以NNI (Neural Network Intelligence)和keras-tuner为代表的半自动炼丹炉，可以看做是介于全自动炼丹炉和全手动丹炉之间的工具。此类工具仍需要炼丹者自己搭建丹炉，但能自动进行配置丹方（超差调优），本人认为这是炼丹过程中最耗时的步骤；得到最好的配方后就能更好的炼制的仙丹。
 
-以上背景内容受启发于李沐大神的[炼丹文](https://zhuanlan.zhihu.com/p/23781756) ,而本文主要介绍的keras-tuner就是一种半自动炼丹炉，主要用于超参调优，免去调参之苦。**下面主要内容翻译自[keras-tuner的官方文档]（https://keras-team.github.io/keras-tuner/），同时也补充了些个人注释。在查看本文内容时建议先熟悉一下keras的语法，简单容易上手。** 
+以上背景内容受启发于李沐大神的[炼丹文](https://zhuanlan.zhihu.com/p/23781756) ,而本文主要介绍的keras-tuner就是一种半自动炼丹炉，主要用于超参调优，免去调参之苦。**下面主要内容翻译自[keras-tuner的官方文档](https://keras-team.github.io/keras-tuner/)，同时也补充了些个人注释。在查看本文内容时建议先熟悉一下keras的语法，简单容易上手。** 
 
 [快速开始：30 秒上手 Keras]: https://keras.io/zh/#30-keras	" 完全"
 
