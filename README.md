@@ -331,6 +331,7 @@ tuner.search(x, y,
 
 
 ## 后记
+
 ![Keras logo](https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png)
 两年前接触到深度学习时，就纠结是学tensorflow还是Pytorch时。当时想能够快速上手，同时无意看到了Keras，就被其简洁明了的语法所吸引，有种第一次使用Python的感觉，也符合Keras宣传的标语`Deep learning for humans` （暗示其他框架不是人类用的，手动滑稽）。在2018年，Keras正式被Google收入麾下，作为tensorflow 2.x 的官方API （说明我的当年眼光还可以~），也从原来的多后端支持变为逐渐只支持tensorflow了。祝Keras这个项目能越来越好！
 
