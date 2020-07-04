@@ -1,7 +1,7 @@
 # Keras-Tuner-CN
 Keras-Tuner：适用于TensorFlow 2.0和keras的超参数调优器 （个人翻译版）
 
-欢迎再知乎阅读此[文章]（https://zhuanlan.zhihu.com/p/156139224）
+欢迎再知乎阅读此[文章](https://zhuanlan.zhihu.com/p/156139224)
 
 ## 背景
 
